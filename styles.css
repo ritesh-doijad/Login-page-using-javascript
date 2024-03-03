@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+  width:100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+.input-name{
+ display: none;
+}
+.form-container{
+  box-shadow: -1px 3px 52px 2px;
+  height: 600px;
+  width:450px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 40px 40px 30px 40px;
+}
+.form-container form{
+ 
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+.form-container form h1{
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.basic-btn{
+  width: 100%;
+  padding:17px;
+  margin:8px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #F0F0F0;
+  outline: none;
+}
+.form-container form a{
+  margin: 15px 0 10px 0;
+  text-decoration: none;
+  color: black;
+
+}
+.sepator-container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.separator{
+  width: 100%;
+  height: 1px;
+  background-color:rgb(114 117 117 / 89%);
+}
+.sepator-container p{
+  margin: 0 5px;;
+}
+.social-login-option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.option-btn{
+  width: 100%;
+  padding:17px 15px;
+  margin:8px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #F0F0F0;
+  outline: none;
+}
+.option-btn i{
+  margin-right: 10px;
+  
+}
+.btn-field{
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ }
+.form-container form button{
+  padding:10px 25px;
+  border-radius: 8px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background: #512da8;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.form-container form button.disable {
+  background-color: #F0F0F0;
+  color: black;
+}
+.forget-pass{
+  display: block;
+}
+@media screen and (max-width:900px) {
+  .form-container{
+    width: 350px;
+    height: auto;
+    padding: 35px 30px;
+  }
+}
+@media screen and (max-width:400px) {
+  .form-container form h1{
+    margin-bottom: 15px;
+  }
+  .form-container{
+    width: 300px;
+    height: auto;
+    padding: 25px 20px;
+  }
+  .basic-btn{
+    padding: 10px;
+  }
+  .form-container form a{
+    margin: 5px 0px 5px 0px;
+  }
+  .form-container form button{
+    padding: 7px 13px;
+  }
+  .option-btn{
+    padding: 9px 13px ;
+  }
+  .social-login-option{
+    margin-top:10px;
+  }
+  
+}
