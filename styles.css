@@ -35,6 +35,7 @@
   margin: 0 0 30px 0;
 }
 .basic-btn{
+  font-size: 15px;
   width: 100%;
   padding:17px;
   margin:8px 0;
@@ -108,35 +109,12 @@
   display: block;
 }
 @media screen and (max-width:900px) {
+  .basic-btn{
+    font-size: 13px;
+  }
   .form-container{
     width: 350px;
     height: auto;
     padding: 35px 30px;
   }
-}
-@media screen and (max-width:400px) {
-  .form-container form h1{
-    margin-bottom: 15px;
-  }
-  .form-container{
-    width: 300px;
-    height: auto;
-    padding: 25px 20px;
-  }
-  .basic-btn{
-    padding: 10px;
-  }
-  .form-container form a{
-    margin: 5px 0px 5px 0px;
-  }
-  .form-container form button{
-    padding: 7px 13px;
-  }
-  .option-btn{
-    padding: 9px 13px ;
-  }
-  .social-login-option{
-    margin-top:10px;
-  }
-  
 }
